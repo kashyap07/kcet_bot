@@ -15,9 +15,9 @@ ffox = FirefoxBinary('/home/kashyap/myprograms/firefox45/firefox')
 browser = webdriver.Firefox(firefox_binary=ffox)
 ```
 Things that I had to check while doing this:  
-*. Verifying the proper version of ffox  
-*. Check if the computer is connected to network  
-*. To do this I used ```requests``` and tried to connect to [google](www.google.com)
+* Verifying the proper version of ffox  
+* Check if the computer is connected to network  
+* To do this I used ```requests``` and tried to connect to [google](www.google.com)
 
 To find the particular object I used ```.find_element_by_class_name()``` and ```.send_keys() ``` to send keys and ```.click() ``` to perform a mouse click.
 
